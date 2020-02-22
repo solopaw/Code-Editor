@@ -18,5 +18,5 @@ function compile() {
     code.close();
   };
 }
-
-compile();
+var loadButton = document.getElementById("LB");
+lb.onclick = compile();
